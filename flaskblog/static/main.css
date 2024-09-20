@@ -1,0 +1,86 @@
+body {
+  background: #1e1e2f;  /* Dark background */
+  color: #e0e0e0;  /* Light text for contrast */
+  margin-top: 6rem;
+  font-family: 'Roboto', sans-serif;  /* Exotic font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;  /* Bright headings */
+  font-family: 'Montserrat', sans-serif;  /* Stylish font for headings */
+}
+
+.bg-steel {
+  background-color: #2a2a3d;  /* Darker steel color */
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #c0c0c0;  /* Lighter nav link color */
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #f0f0f0;  /* Bright hover color */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;  /* Underline active links */
+}
+
+.content-section {
+  background: #2a2a3d;  /* Dark content background */
+  padding: 15px 25px;
+  border: 1px solid #444;  /* Softer border color */
+  border-radius: 8px;  /* More rounded corners */
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  /* Subtle shadow for depth */
+}
+
+.article-title {
+  color: #f0f0f0;  /* Lighter article title */
+}
+
+a.article-title:hover {
+  color: #ff7e00;  /* Exotic orange color */
+  text-decoration: underline;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+.article-metadata {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #444;  /* Softer border */
+}
+
+.article-metadata a:hover {
+  color: #ff7e00;  /* Exotic orange on hover */
+  text-decoration: underline;  /* Underline on hover */
+}
+
+.article-svg {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 130px;
+  width: 130px;
+  margin-right: 25px;
+  margin-bottom: 18px;
+}
+
+.account-heading {
+  font-size: 3rem;
+  color: #ff7e00;  /* Exotic orange for headings */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);  /* Subtle shadow for text */
+}
